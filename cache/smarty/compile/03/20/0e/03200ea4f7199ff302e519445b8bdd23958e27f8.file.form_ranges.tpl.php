@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-08-11 04:39:21
+<?php /* Smarty version Smarty-3.1.19, created on 2016-08-11 06:54:57
          compiled from "C:\xampp\htdocs\shop\admin\themes\default\template\controllers\carrier_wizard\helpers\form\form_ranges.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:3072357abe559c4be96-36193573%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3206157ac05217d8aa6-44807701%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '03200ea4f7199ff302e519445b8bdd23958e27f8' => 
     array (
       0 => 'C:\\xampp\\htdocs\\shop\\admin\\themes\\default\\template\\controllers\\carrier_wizard\\helpers\\form\\form_ranges.tpl',
-      1 => 1466020874,
+      1 => 1470890938,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3072357abe559c4be96-36193573',
+  'nocache_hash' => '3206157ac05217d8aa6-44807701',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57abe559d69159_38113904',
+  'unifunc' => 'content_57ac05218b36d0_04160429',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57abe559d69159_38113904')) {function content_57abe559d69159_38113904($_smarty_tpl) {?>		<script>var zones_nbr = <?php echo count($_smarty_tpl->tpl_vars['zones']->value)+3;?>
+<?php if ($_valid && !is_callable('content_57ac05218b36d0_04160429')) {function content_57ac05218b36d0_04160429($_smarty_tpl) {?>		<script>var zones_nbr = <?php echo count($_smarty_tpl->tpl_vars['zones']->value)+3;?>
  ; /*corresponds to the third input text (max, min and all)*/</script>
 		<div id="zone_ranges" style="overflow:auto">
 			<h4><?php echo smartyTranslate(array('s'=>'Ranges'),$_smarty_tpl);?>

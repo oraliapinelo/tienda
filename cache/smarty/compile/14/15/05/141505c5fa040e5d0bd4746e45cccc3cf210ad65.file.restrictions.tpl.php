@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-08-11 04:39:23
+<?php /* Smarty version Smarty-3.1.19, created on 2016-08-11 06:54:59
          compiled from "C:\xampp\htdocs\shop\admin\themes\default\template\controllers\payment\restrictions.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2539657abe55bec1488-64320414%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:122257ac052383e940-73173150%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '141505c5fa040e5d0bd4746e45cccc3cf210ad65' => 
     array (
       0 => 'C:\\xampp\\htdocs\\shop\\admin\\themes\\default\\template\\controllers\\payment\\restrictions.tpl',
-      1 => 1466020874,
+      1 => 1470890938,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2539657abe55bec1488-64320414',
+  'nocache_hash' => '122257ac052383e940-73173150',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57abe55c035d82_04276303',
+  'unifunc' => 'content_57ac05238f5640_02542397',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57abe55c035d82_04276303')) {function content_57abe55c035d82_04276303($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_57ac05238f5640_02542397')) {function content_57ac05238f5640_02542397($_smarty_tpl) {?>
 
 <form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['url_submit']->value, ENT_QUOTES, 'UTF-8', true);?>
 " method="post" id="form_<?php echo $_smarty_tpl->tpl_vars['list']->value['name_id'];?>

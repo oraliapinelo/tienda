@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-08-11 04:39:21
+<?php /* Smarty version Smarty-3.1.19, created on 2016-08-11 06:54:57
          compiled from "C:\xampp\htdocs\shop\admin\themes\default\template\controllers\carriers\helpers\view\view.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:479757abe559bf20f9-47407264%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1712757ac0521782b88-45517213%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c285d99a8c8ffee99adc2da975a117f29c9a1a18' => 
     array (
       0 => 'C:\\xampp\\htdocs\\shop\\admin\\themes\\default\\template\\controllers\\carriers\\helpers\\view\\view.tpl',
-      1 => 1466020874,
+      1 => 1470890938,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '479757abe559bf20f9-47407264',
+  'nocache_hash' => '1712757ac0521782b88-45517213',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57abe559c28c02_99404772',
+  'unifunc' => 'content_57ac05217b9696_91829351',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57abe559c28c02_99404772')) {function content_57abe559c28c02_99404772($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_57ac05217b9696_91829351')) {function content_57ac05217b9696_91829351($_smarty_tpl) {?>
 
 <div class="panel">
 	<h3><?php echo smartyTranslate(array('s'=>"Add a new carrier"),$_smarty_tpl);?>

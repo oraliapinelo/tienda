@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-08-10 23:37:44
+<?php /* Smarty version Smarty-3.1.19, created on 2016-08-11 02:59:43
          compiled from "C:\xampp\htdocs\shop\admin861rybipw\themes\default\template\controllers\login\content.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:3054657ac011809d3f2-04997467%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bb6069a31902121d4dcc888f2391f5fbda1c0875' => 
     array (
       0 => 'C:\\xampp\\htdocs\\shop\\admin861rybipw\\themes\\default\\template\\controllers\\login\\content.tpl',
-      1 => 1466020874,
+      1 => 1470891328,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_57ac011810aa17_05158868',
   'variables' => 
   array (
     'img_dir' => 0,
@@ -33,8 +35,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'adminUrl' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57ac011810aa17_05158868',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57ac011810aa17_05158868')) {function content_57ac011810aa17_05158868($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'C:\\xampp\\htdocs\\shop\\tools\\smarty\\plugins\\modifier.date_format.php';
 ?>
