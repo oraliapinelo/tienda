@@ -11,7 +11,7 @@ RewriteEngine on
 
 
 #Domain: oraliapinelo.esy.es
-RewriteRule . - [E=REWRITEBASE:/shop/]
+RewriteRule . - [E=REWRITEBASE:/tiendadesdegit/]
 RewriteRule ^api$ api/ [L]
 
 RewriteRule ^api/(.*)$ %{ENV:REWRITEBASE}webservice/dispatcher.php?url=$1 [QSA,L]
@@ -39,7 +39,7 @@ RewriteRule ^.*$ %{ENV:REWRITEBASE}index.php [NC,L]
 
 
 #Domain: loraliapinelo.esy.es
-RewriteRule . - [E=REWRITEBASE:/shop/]
+RewriteRule . - [E=REWRITEBASE:/tiendadesdegit/]
 RewriteRule ^api$ api/ [L]
 
 RewriteRule ^api/(.*)$ %{ENV:REWRITEBASE}webservice/dispatcher.php?url=$1 [QSA,L]
@@ -77,6 +77,6 @@ AddType application/x-font-woff .woff
 </IfModule>
 
 #If rewrite mod isn't enabled
-ErrorDocument 404 /shop/index.php?controller=404
+ErrorDocument 404 /tiendadesdegit/index.php?controller=404
 
 # ~~end~~ Do not remove this comment, Prestashop will keep automatically the code outside this comment when .htaccess will be generated again
